@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Material, Texture } from 'three';
-	import panoramaImage from '#lib/assets/Ililikha.jpg';
+	import panoramaImage from '#lib/assets/Ililikha2.jpg';
 
 	let viewer: HTMLDivElement;
 	let isFullscreen = $state(false);
